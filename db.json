@@ -1,0 +1,28 @@
+{
+    "marcas": [
+        {
+            "id": "1",
+            "name": "Nike"
+        },
+        {
+            "id": "2",
+            "name": "Adidas"
+        },
+        {
+            "id": "3",
+            "name": "Puma"
+        },
+        {
+            "id": "4",
+            "name": "Olympikus"
+        },
+        {
+            "id": "5",
+            "name": "Mizuno"
+        },
+        {
+            "id": "6",
+            "name": "Vans"
+        }
+    ]
+}
