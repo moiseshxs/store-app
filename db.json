@@ -2,27 +2,194 @@
     "marcas": [
         {
             "id": "1",
-            "name": "Nike"
+            "name": "Nike",
+            "logo": "https://i.pinimg.com/736x/ba/72/91/ba729130dd85f277b06ef75388c3e608.jpg"
         },
         {
             "id": "2",
-            "name": "Adidas"
+            "name": "Adidas",
+            "logo": "https://i.pinimg.com/736x/bf/b1/2f/bfb12f9dc4f806be63b57ec481c91ab2.jpg"
         },
         {
             "id": "3",
-            "name": "Puma"
-        },
-        {
-            "id": "4",
-            "name": "Olympikus"
+            "name": "Puma",
+            "logo": "https://assets.turbologo.com/blog/pt/2019/11/19133630/puma-logo-cover-958x575.png"
         },
         {
             "id": "5",
-            "name": "Mizuno"
+            "name": "Mizuno",
+            "logo": "https://i.pinimg.com/originals/30/41/e3/3041e3f0ad77301f0eafbcc6d0c6df77.jpg"
         },
         {
             "id": "6",
-            "name": "Vans"
+            "name": "Vans",
+            "logo": "https://i.pinimg.com/736x/bf/b1/2f/bfb12f9dc4f806be63b57ec481c91ab2.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Reebok",
+            "logo": "https://i.pinimg.com/736x/bf/b1/2f/bfb12f9dc4f806be63b57ec481c91ab2.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Asics"
+        },
+        {
+            "id": "9",
+            "name": "New Balance"
+        },
+        {
+            "id": "10",
+            "name": "Converse"
+        },
+        {
+            "id": "11",
+            "name": "Olympikus",
+            "logo": "https://i.pinimg.com/564x/6a/cb/3b/6acb3be75c89fb22a21d09ca0c10991e.jpg"
+        }
+    ],
+    "produtos": [
+        {
+            "id": "101",
+            "name": "Air Max 90",
+            "price": 120.00,
+            "rating": 4.5,
+            "image": "https://imgnike-a.akamaihd.net/768x768/0139237T.jpg",
+            "brand_id": "1"
+        },
+        {
+            "id": "102",
+            "name": "Air Force 1",
+            "price": 100.00,
+            "rating": 4.7,
+            "image": "https://imgnike-a.akamaihd.net/768x768/01113751.jpg",
+            "brand_id": "1"
+        },
+        {
+            "id": "201",
+            "name": "Ultraboost 21",
+            "price": 180.00,
+            "rating": 4.8,
+            "brand_id": "2"
+        },
+        {
+            "id": "202",
+            "name": "Superstar",
+            "price": 85.00,
+            "rating": 4.6,
+            "brand_id": "2"
+        },
+        {
+            "id": "301",
+            "name": "Suede Classic",
+            "price": 70.00,
+            "rating": 4.4,
+            "brand_id": "3"
+        },
+        {
+            "id": "302",
+            "name": "RS-X",
+            "price": 110.00,
+            "rating": 4.5,
+            "brand_id": "3"
+        },
+        {
+            "id": "401",
+            "name": "Olympikus Pride",
+            "price": 60.00,
+            "rating": 4.2,
+            "brand_id": "4"
+        },
+        {
+            "id": "402",
+            "name": "Olympikus Exact",
+            "price": 50.00,
+            "rating": 4.3,
+            "brand_id": "4"
+        },
+        {
+            "id": "501",
+            "name": "Wave Sky",
+            "price": 160.00,
+            "rating": 4.7,
+            "brand_id": "5"
+        },
+        {
+            "id": "502",
+            "name": "Wave Rider",
+            "price": 130.00,
+            "rating": 4.6,
+            "brand_id": "5"
+        },
+        {
+            "id": "601",
+            "name": "Old Skool",
+            "price": 65.00,
+            "rating": 4.5,
+            "brand_id": "6"
+        },
+        {
+            "id": "602",
+            "name": "Authentic",
+            "price": 55.00,
+            "rating": 4.4,
+            "brand_id": "6"
+        },
+        {
+            "id": "701",
+            "name": "Classic Leather",
+            "price": 75.00,
+            "rating": 4.3,
+            "brand_id": "7"
+        },
+        {
+            "id": "702",
+            "name": "Club C 85",
+            "price": 70.00,
+            "rating": 4.5,
+            "brand_id": "7"
+        },
+        {
+            "id": "801",
+            "name": "Gel-Kayano",
+            "price": 150.00,
+            "rating": 4.6,
+            "brand_id": "8"
+        },
+        {
+            "id": "802",
+            "name": "Gel-Nimbus",
+            "price": 140.00,
+            "rating": 4.7,
+            "brand_id": "8"
+        },
+        {
+            "id": "901",
+            "name": "574 Classic",
+            "price": 80.00,
+            "rating": 4.5,
+            "brand_id": "9"
+        },
+        {
+            "id": "902",
+            "name": "997H",
+            "price": 90.00,
+            "rating": 4.6,
+            "brand_id": "9"
+        },
+        {
+            "id": "1001",
+            "name": "Chuck Taylor All Star",
+            "price": 60.00,
+            "rating": 4.6,
+            "brand_id": "10"
+        },
+        {
+            "id": "1002",
+            "name": "One Star",
+            "price": 70.00,
+            "rating": 4.5,
+            "brand_id": "10"
         }
     ]
 }

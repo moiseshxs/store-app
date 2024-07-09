@@ -13,7 +13,7 @@ export function Section({ name, subName, action}: Props) {
         >
             <Text className='text-3xl font-bold'>{name}</Text>
 
-            <Text className='text-gray-400'>{subName}</Text>
+            <Text className='text-purple-500'>{subName}</Text>
         </Pressable>
     );
 }

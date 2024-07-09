@@ -2,26 +2,30 @@ import { Pressable, View, Text } from 'react-native';
 import { useEffect, useState } from "react";
 import { ProdutoItem } from './item';
 
-export interface MarcasProps {
+export interface ProdutosProps {
     id: string;
     name: string;
+    price: number;
+    rating: number;
+    image: string;
+    brand_id: string;
   }
 
 export function Produtos() {
-    const [marcas, setMarcas] = useState<MarcasProps[]>([])
+    const [produtos, setProdutos] = useState<ProdutosProps[]>([])
 
     useEffect(() => {
-      async function getMarcas() {
-        const response = await fetch("http://192.168.1.2:3000/marcas")
+      async function getProdutos() {
+        const response = await fetch("http://192.168.1.2:3000/produtos")
         const data = await response.json()
-        setMarcas(data);
+        setProdutos(data);
       }
-      getMarcas();
+      getProdutos();
     }, [])
 
     return (
-        <View className='w-full flex-row'>
-            {marcas.map( item => (
+        <View className='w-full flex flex-wrap flex-row justify-between'>
+            {produtos.map( item => (
                 <ProdutoItem item={item} key={item.id}/>
             ))}
         </View>

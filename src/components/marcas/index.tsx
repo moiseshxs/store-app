@@ -6,6 +6,7 @@ import { MarcaHorizontal } from "./marca";
 export interface MarcasProps {
   id: string;
   name: string;
+  logo: string;
 }
 
 export function Marcas() {
